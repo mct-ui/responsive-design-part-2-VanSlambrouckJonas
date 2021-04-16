@@ -188,11 +188,6 @@ a:focus {
   #OBJECTS
 \*------------------------------------*/
 
-.o-row--gradient{
-    background: linear-gradient(to bottom, #5051DB 0%,#3887F7 100%);
-    color: #fff;
-}
-
 /*
     Objects: Row
     ---
@@ -206,6 +201,11 @@ a:focus {
 }
 
 /* size modifiers */
+
+.o-row--gradient{
+    background: linear-gradient(to bottom, #5051DB 0%,#3887F7 100%);
+    color: #fff;
+}
 
 .o-row--lg {
     padding: 48px 24px 24px;
@@ -235,6 +235,7 @@ a:focus {
 .o-row-background{
     background-color: #F7F7F7;
 }
+
 /*
     Objects: Container
     ---
@@ -272,6 +273,7 @@ a:focus {
     margin-top: auto;
     margin-bottom: auto;
 }
+
 /* gutter modifiers, these affect o-layout__item too */
 
 .o-layout--gutter {
